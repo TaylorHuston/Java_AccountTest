@@ -1,16 +1,13 @@
+
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+
 /*
  * Very basic program to demonstrate accessing fields in a class
  * From "Java How To Program, 10/e, Early Objects" - Chapter 3
  */
 
 
-import java.util.Scanner;
-import javax.swing.JOptionPane;
-
-/**
- *
- * @author Taylor
- */
 public class AccountTest {
     
     public static void main(String[] args) {

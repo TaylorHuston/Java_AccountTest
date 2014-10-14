@@ -3,11 +3,6 @@
  * From "Java How To Program, 10/e, Early Objects" - Chapter 3
  */
 
-
-/**
- *
- * @author Taylor
- */
 public class Account {
 
     private String name;
