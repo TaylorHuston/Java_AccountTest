@@ -4,7 +4,6 @@
  */
 
 public class Account {
-
     private String name;
     private double balance;
     
@@ -12,40 +11,34 @@ public class Account {
     public Account(String newName, double startBalance) {
         this.name = newName;
         
-        if(startBalance > 0.0) {
+        if (startBalance > 0.0) {
             this.balance = startBalance;
         } else {
             this.balance = 0.0;
         }
-    }
+    } //End Constructor
     
     public Account() {
         this.name = null;
         this.balance = 0.0;
-    }
+    } //End Constructor
 
-    //Name methods
-    //Sets the name
+    //Setters and Getters
     public void setName(String newName) {
         this.name = newName;
-    }
+    } //End SetName
     
-    //Retrieve the name
     public String getName() {
         return this.name;
-    }
-    
-    //Balance methods
-    //Deposit money
+    } //End getName
+
     public void deposit(double toDeposit) {
         if (toDeposit > 0.0) {
             this.balance += toDeposit;
         }
-    }
+    } //End deposit
     
-    //Retrieve the current balance
     public double getBalance() {
         return this.balance;
-    }
-    
-} //end Account
+    } //End getBalance
+} //End Account
